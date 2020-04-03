@@ -37,7 +37,7 @@ public class MissingNumber {
             }
         }
 
-        return -1;
+        return expectedCount;
     }
 
 
