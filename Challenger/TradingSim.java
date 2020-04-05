@@ -37,8 +37,8 @@ public class TradingSim {
 
 
     public static void main(String[] args) {
-        // System.out.println("Expected: 7 :: Actual: " + findBestTradeBruteForce(testCase1));
-        // System.out.println("Expected: 4 :: Actual: " + findBestTradeBruteForce(testCase2));
+        System.out.println("Expected: 5 :: Actual: " + findBestTradeBruteForce(testCase1));
+        System.out.println("Expected: 4 :: Actual: " + findBestTradeBruteForce(testCase2));
         System.out.println("Expected: 0 :: Actual: " + findBestTradeBruteForce(testCase3));
 
         System.out.println("============================================================");
@@ -47,7 +47,7 @@ public class TradingSim {
         System.out.println("Expected: 4 :: Actual: " + findBestTradeSinglePass(testCase2));
         System.out.println("Expected: 0 :: Actual: " + findBestTradeSinglePass(testCase3));
         System.out.println("Expected: 13 :: Actual: " + findBestTradeSinglePass(testCase4));
-        System.out.println("Expected: 5 :: Actual: " + findBestTradeSinglePass(testCase5));
+        System.out.println("Expected: 30 :: Actual: " + findBestTradeSinglePass(testCase5));
 
 
     }
