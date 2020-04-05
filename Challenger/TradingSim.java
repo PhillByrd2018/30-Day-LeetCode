@@ -8,23 +8,19 @@ public class TradingSim {
     public static int[] testCase5 = {1,11,1,1,21,1,1}; //
 
     public static int findBestTradeBruteForce(int[] prices) {
-        int totalProfit = 0;
         int maxProfForDay = 0;
-
         if (prices.length < 2) {
-            return totalProfit;
+            return 0;
         }
-
         for (int i = 0; i < prices.length-1; i++) {
-            maxProfForDay = 0;
-            for (int j = 1; j < prices.length; j++) {
+            for (int j = i+1; j < prices.length; j++) {
                 int currCal = prices[j] - prices[i];
                 maxProfForDay = Math.max(currCal, maxProfForDay);
 
             }
         }
         
-        return totalProfit;
+        return maxProfForDay;
     }
 
     public static int findBestTradeSinglePass(int[] prices) {
@@ -43,14 +39,14 @@ public class TradingSim {
     public static void main(String[] args) {
         // System.out.println("Expected: 7 :: Actual: " + findBestTradeBruteForce(testCase1));
         // System.out.println("Expected: 4 :: Actual: " + findBestTradeBruteForce(testCase2));
-        // System.out.println("Expected: 0 :: Actual: " + findBestTradeBruteForce(testCase3));
+        System.out.println("Expected: 0 :: Actual: " + findBestTradeBruteForce(testCase3));
 
-        // System.out.println("============================================================");
+        System.out.println("============================================================");
 
-        // System.out.println("Expected: 7 :: Actual: " + findBestTradeSinglePass(testCase1));
-        // System.out.println("Expected: 4 :: Actual: " + findBestTradeSinglePass(testCase2));
-        // System.out.println("Expected: 0 :: Actual: " + findBestTradeSinglePass(testCase3));
-        // System.out.println("Expected: 13 :: Actual: " + findBestTradeSinglePass(testCase4));
+        System.out.println("Expected: 7 :: Actual: " + findBestTradeSinglePass(testCase1));
+        System.out.println("Expected: 4 :: Actual: " + findBestTradeSinglePass(testCase2));
+        System.out.println("Expected: 0 :: Actual: " + findBestTradeSinglePass(testCase3));
+        System.out.println("Expected: 13 :: Actual: " + findBestTradeSinglePass(testCase4));
         System.out.println("Expected: 5 :: Actual: " + findBestTradeSinglePass(testCase5));
 
 
