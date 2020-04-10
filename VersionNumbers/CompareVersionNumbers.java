@@ -41,6 +41,29 @@ public class CompareVersionNumbers {
         return Integer.parseInt(S);
     }
 
+
+    public static int slickSolution(String version1, String version2) {
+
+        String[] versions1 = version1.split("[.]");
+        String[] versions2 = version2.split("[.]");
+
+        int lengthV1 = versions1.length;
+        int lengthV2 = versions2.length;
+
+        int ver1Spot, ver2Spot;
+        for (int i = 0; i < Math.max(lengthV1, lengthV2); ++i) {
+            ver1Spot = i < lengthV1 ? Integer.parseInt(versions1[i]) : 0;
+            ver2Spot = i < lengthV2 ? Integer.parseInt(versions2[i]) : 0;
+
+            if (ver1Spot != ver2Spot) {
+                return ver1Spot > ver2Spot ? 1 : -1;
+            }
+        }
+
+        return 0;
+
+    } 
+
     public static void main(String[] args) {
 
         System.out.println("Expected: -1 :: Actual: " + compareVersion(testCase1, testCase2));
@@ -48,6 +71,14 @@ public class CompareVersionNumbers {
         System.out.println("Expected: 1 :: Actual: " + compareVersion(testCase1, testCase4));
         System.out.println("Expected: 0 :: Actual: " + compareVersion(testCase5, testCase6));
         System.out.println("Expected: 1 :: Actual: " + compareVersion(testCase8, testCase9));
+        System.out.println("==============================================================");
+
+
+        System.out.println("Expected: -1 :: Actual: " + slickSolution(testCase1, testCase2));
+        System.out.println("Expected: -1 :: Actual: " + slickSolution(testCase3, testCase4));
+        System.out.println("Expected: 1 :: Actual: " + slickSolution(testCase1, testCase4));
+        System.out.println("Expected: 0 :: Actual: " + slickSolution(testCase5, testCase6));
+        System.out.println("Expected: 1 :: Actual: " + slickSolution(testCase8, testCase9));
         
         
     }
