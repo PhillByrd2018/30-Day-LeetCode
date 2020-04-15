@@ -1,6 +1,6 @@
-import java.util.Arrays;
+package Challenger;
+
 import java.util.LinkedList;
-import java.util.List;
 
 /**
  * Definition for singly-linked list.

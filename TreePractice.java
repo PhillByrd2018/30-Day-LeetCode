@@ -1,6 +1,4 @@
-package Practice;
 
-import jdk.nashorn.api.tree.Tree;
 
 public class TreePractice {
 

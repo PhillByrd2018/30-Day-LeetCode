@@ -1,4 +1,6 @@
-import java.util.*; 
+package Challenger;
+
+import java.util.*;
 import java.util.stream.*;
 
 public class CountingElements {

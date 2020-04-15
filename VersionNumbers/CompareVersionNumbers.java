@@ -1,3 +1,4 @@
+package VersionNumbers;
 public class CompareVersionNumbers {
 
     public static String testCase1 = "7.5.2.4";

@@ -1,6 +1,6 @@
-package Practice.Lambda;
+package Lambda;
 
-import Practice.Employees.Employee;
+import Employees.Employee;
 
 public class Main {
 

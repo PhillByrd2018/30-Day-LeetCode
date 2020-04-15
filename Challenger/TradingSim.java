@@ -1,4 +1,4 @@
-
+package Challenger;
 public class TradingSim {
 
     public static int[] testCase1 = {7,1,5,3,6,4}; // 7

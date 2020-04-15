@@ -1,3 +1,4 @@
+package NumberToString;
 
 public class NumberToString {
     // https://leetcode.com/explore/interview/card/amazon/76/array-and-strings/481/
