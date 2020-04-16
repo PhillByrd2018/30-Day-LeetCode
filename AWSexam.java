@@ -55,7 +55,7 @@ public class AWSexam {
             if (index == i) {
                 ans.add(1);
             } else {
-                ans.add(index -i);
+                ans.add(index - i+1);
                 i += index;
             }
         }
@@ -78,9 +78,9 @@ public class AWSexam {
         
         List<Character> testCase1 = List.of('a', 'b', 'c');
         System.out.println("Expected: [1,1,1] :: Actual: " + findSubArray(testCase1));
-        List<Character> testCase2 = List.of('a', 'b', 'c', 'd', 'e', 'a');
-        System.out.println("Expected: [5] :: Actual: " + findSubArray(testCase2));
+        List<Character> testCase2 = List.of('a', 'b', 'c', 'd', 'e', 'a', 'g');
+        System.out.println("Expected: [6, 1] :: Actual: " + findSubArray(testCase2));
         List<Character> testCase3 = List.of('a', 'b', 'c', 'd', 'e', 'a','f','g','h','f');
-        System.out.println("Expected: [5,3] :: Actual: " + findSubArray(testCase3));
+        System.out.println("Expected: [6,4] :: Actual: " + findSubArray(testCase3));
     }
 }
