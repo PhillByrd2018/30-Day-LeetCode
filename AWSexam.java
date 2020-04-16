@@ -15,7 +15,7 @@ public class AWSexam {
         featureMap = wordsToSearch.stream()
                 .collect(Collectors.toMap(feat -> feat, feat -> findFrequency(feat, reviews)));
 
-        while (ans.size() < numberOfTopWordsToReturn) {
+        while (ans.size() < numberOfTopWordsToReturn && !featureMap.isEmpty()) {
             ans.add(findMaxFrequencyInResults(featureMap));
         }
         return ans;
