@@ -80,5 +80,7 @@ public class AWSexam {
         System.out.println("Expected: [1,1,1] :: Actual: " + findSubArray(testCase1));
         List<Character> testCase2 = List.of('a', 'b', 'c', 'd', 'e', 'a');
         System.out.println("Expected: [5] :: Actual: " + findSubArray(testCase2));
+        List<Character> testCase3 = List.of('a', 'b', 'c', 'd', 'e', 'a','f','g','h','f');
+        System.out.println("Expected: [5,3] :: Actual: " + findSubArray(testCase3));
     }
 }
