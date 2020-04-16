@@ -45,9 +45,24 @@ public class AWSexam {
     // that would exist in the array.
     // [a,b,c,a] = [4]
     // [a,b,c] =[1,1,1]
-    // public static List<String> findSubArray(List<Character> movieClips){
+    public static List<Integer> findSubArray(List<Character> movieClips){
 
-    // }
+        List<Integer> ans = new ArrayList<>();
+        int index = 0;
+        for (int i = 0; i< movieClips.size(); i++) {
+            Character c = movieClips.get(i);
+            index = movieClips.lastIndexOf(c);
+            if (index == i) {
+                ans.add(1);
+            } else {
+                ans.add(index -i);
+                i += index;
+            }
+        }
+
+        return ans;
+
+    }
 
     public static void main(String[] args) {
         List<String> reviews = List.of(
@@ -61,5 +76,9 @@ public class AWSexam {
         int numberOfReviews = 4;
         System.out.println(findMostFrequentWord(numberOfWords, numberOfTopWordsToReturn, keyWords, numberOfReviews, reviews));
         
+        List<Character> testCase1 = List.of('a', 'b', 'c');
+        System.out.println("Expected: [1,1,1] :: Actual: " + findSubArray(testCase1));
+        List<Character> testCase2 = List.of('a', 'b', 'c', 'd', 'e', 'a');
+        System.out.println("Expected: [5] :: Actual: " + findSubArray(testCase2));
     }
 }
