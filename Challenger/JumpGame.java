@@ -56,9 +56,9 @@ public class JumpGame {
     }
 
     public static void main(String[] args) {
-        // System.out.println("Expected: true :: Actual: " + canJump(testCase1));
-        // System.out.println("Expected: false :: Actual: " + canJump(testCase2));
-        // System.out.println("Expected: true :: Actual: " + canJump(testCase3));
+        System.out.println("Expected: true :: Actual: " + canJump(testCase1));
+        System.out.println("Expected: false :: Actual: " + canJump(testCase2));
+        System.out.println("Expected: true :: Actual: " + canJump(testCase3));
         System.out.println("===============================================");
         System.out.println("Expected: true :: Actual: " + canJumpGreedy(testCase1));
         System.out.println("Expected: true :: Actual: " + canJumpGreedy(testCase2));
