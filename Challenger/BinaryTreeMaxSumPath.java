@@ -27,17 +27,17 @@ public class BinaryTreeMaxSumPath {
     }
 
     public static void main(String[] args) {
-        // TreeNodePractice testCaseRoot = new TreeNodePractice(-10);
-        // TreeNodePractice testCaseL = new TreeNodePractice(9);
-        // TreeNodePractice testCaseR = new TreeNodePractice(20);
-        // TreeNodePractice testCase1RL = new TreeNodePractice(15);
-        // TreeNodePractice testCase1RR = new TreeNodePractice(7);
-        // testCaseRoot.left = testCaseL;
-        // testCaseRoot.right = testCaseR;
-        // testCaseR.left = testCase1RL;
-        // testCaseR.right = testCase1RR;
+        TreeNodePractice testCaseRoot = new TreeNodePractice(-10);
+        TreeNodePractice testCaseL = new TreeNodePractice(9);
+        TreeNodePractice testCaseR = new TreeNodePractice(20);
+        TreeNodePractice testCase1RL = new TreeNodePractice(15);
+        TreeNodePractice testCase1RR = new TreeNodePractice(7);
+        testCaseRoot.left = testCaseL;
+        testCaseRoot.right = testCaseR;
+        testCaseR.left = testCase1RL;
+        testCaseR.right = testCase1RR;
     
-        // System.out.println("Expected: 42 :: Actual: " + maxPathSum(testCaseRoot));
+        System.out.println("Expected: 42 :: Actual: " + maxPathSum(testCaseRoot));
 
 
         TreeNodePractice testCaseRoot2 = new TreeNodePractice(1);
