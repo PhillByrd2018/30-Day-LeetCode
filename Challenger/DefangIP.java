@@ -1,7 +1,5 @@
 package Challenger;
 
-import jdk.nashorn.internal.ir.ReturnNode;
-
 public class DefangIP {
 
     public static String defangIPaddrReplaceAll(String address) {
