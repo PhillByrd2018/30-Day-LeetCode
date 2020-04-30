@@ -1,0 +1,329 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RootToLeavesPath",
+            "request": "launch",
+            "mainClass": "Challenger.RootToLeavesPath",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AWSexam<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "AWSexam",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArrayExceptSelf<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.ArrayExceptSelf",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BackSpaceString<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.BackSpaceString",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinarySorter<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.BinarySorter",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinaryTreeMaxSumPath<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.BinaryTreeMaxSumPath",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Bitwise<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.Bitwise",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ClosestBinarySearchTreeValue<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.ClosestBinarySearchTreeValue",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ConstructBinaryTreeFromPreordal<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.ConstructBinaryTreeFromPreordal",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ContiguousSubArray<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.ContiguousSubArray",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CountingElements<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.CountingElements",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DefangIP<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.DefangIP",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DiameterOfATree<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.DiameterOfATree",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FirstUniqueNumber<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.FirstUniqueNumber",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GroupAnagrams<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.GroupAnagrams",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HappyNumber<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.HappyNumber",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IslandProblem<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.IslandProblem",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JumpGame<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.JumpGame",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LRUcache<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.LRUcache",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaximalSqaure<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.MaximalSqaure",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaximumSubarray<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.MaximumSubarray",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MiddleLinkedList<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.MiddleLinkedList",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MinPathSum<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.MinPathSum",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MinStack<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.MinStack",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MoveZeroes<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.MoveZeroes",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PerformStringShifts<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.PerformStringShifts",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RockBreaker<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.RockBreaker",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SearchInRotatedSortedArray<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.SearchInRotatedSortedArray",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SingleNumber<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.SingleNumber",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SubsequenceOf2Arrays<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.SubsequenceOf2Arrays",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SumOfLeftLeaves<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.SumOfLeftLeaves",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SumSubarray<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.SumSubarray",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TradingSim<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.TradingSim",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ValidParenString<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Challenger.ValidParenString",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FacebookOne<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "FacebookOne",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Lambda.Main",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MedianOfTwoArrays<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Median.MedianOfTwoArrays",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MissingNumber<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "MissingNumbers.MissingNumber",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MostWater<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "MostWater.MostWater",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NumberToString<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "NumberToString.NumberToString",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Palindrome<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Palindrome",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NumToRoman<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Roman.NumToRoman",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RomanToNum<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "Roman.RomanToNum",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TreePractice<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "TreePractice",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CompareVersionNumbers<Practice_e9ecc0b6>",
+            "request": "launch",
+            "mainClass": "VersionNumbers.CompareVersionNumbers",
+            "projectName": "Practice_e9ecc0b6"
+        }
+    ]
+}
