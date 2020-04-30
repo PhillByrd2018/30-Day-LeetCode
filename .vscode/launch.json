@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Permute",
+            "request": "launch",
+            "mainClass": "Interviews.Permute",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Trie",
+            "request": "launch",
+            "mainClass": "Interviews.Trie",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - RootToLeavesPath",
             "request": "launch",
             "mainClass": "Challenger.RootToLeavesPath",
