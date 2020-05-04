@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Strobogrammatic",
+            "request": "launch",
+            "mainClass": "Challenger.Strobogrammatic",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RansomNote",
+            "request": "launch",
+            "mainClass": "Challenger.RansomNote",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JewelsAndStones",
+            "request": "launch",
+            "mainClass": "Challenger.JewelsAndStones",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BinarySearchRotatedArrayWithDuplicates",
+            "request": "launch",
+            "mainClass": "BinarySearchRotatedArrayWithDuplicates",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Cousins",
             "request": "launch",
             "mainClass": "Challenger.Cousins",
