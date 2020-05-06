@@ -14,18 +14,18 @@ public class BinarySearch {
 
         int start = 0;
         int end = nums.length-1;
+        int mid;
 
         while (start <= end) {
-            int mid = start + ((end-start)/2);
+            mid = start + ((end-start)/2);
             int currentNum = nums[mid];
             if (currentNum == target) {
                 return mid;
             } else if (target < currentNum) {
                 end = mid-1;
-            } else if (currentNum < target) {
+            } else  {
                 start = mid + 1;
             }
-            
         }
         return -1;
     }
