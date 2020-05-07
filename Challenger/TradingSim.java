@@ -6,6 +6,7 @@ public class TradingSim {
     public static int[] testCase3 = {7,6,4,3,1}; // 0
     public static int[] testCase4 = {1,6,4,3,7,11}; // 13
     public static int[] testCase5 = {1,11,1,1,21,1,1}; //
+    public static int[] testCase6 = {4,5,8,3,5,6}; // 7
 
     public static int findBestTradeBruteForce(int[] prices) {
         int maxProfForDay = 0;
@@ -16,10 +17,8 @@ public class TradingSim {
             for (int j = i+1; j < prices.length; j++) {
                 int currCal = prices[j] - prices[i];
                 maxProfForDay = Math.max(currCal, maxProfForDay);
-
             }
         }
-        
         return maxProfForDay;
     }
 
@@ -48,6 +47,7 @@ public class TradingSim {
         System.out.println("Expected: 0 :: Actual: " + findBestTradeSinglePass(testCase3));
         System.out.println("Expected: 13 :: Actual: " + findBestTradeSinglePass(testCase4));
         System.out.println("Expected: 30 :: Actual: " + findBestTradeSinglePass(testCase5));
+        System.out.println("Expected: 7 :: Actual: " + findBestTradeSinglePass(testCase6));
 
 
     }
