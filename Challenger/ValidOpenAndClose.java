@@ -17,7 +17,7 @@ public class ValidOpenAndClose {
         
         //validation
         if (s.isEmpty()) {
-            return false;
+            return true;
         }
         if (s.length() < 2) {
             return false;
