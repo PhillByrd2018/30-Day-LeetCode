@@ -9,19 +9,18 @@ public class Cousins {
     static Map<Integer, TreeNodePractice> parentMap;
 
     public static boolean isCousins(TreeNodePractice root, int x, int y) {
+
         depthMap = new HashMap<>();
         parentMap = new HashMap<>();
+
         DFS(root, null);
-        return (depthMap.get(x) == depthMap.get(y) && parentMap.get(x) != parentMap.get(y));
+        return depthMap.get(x) == depthMap.get(y) && parentMap.get(x) != parentMap.get(y);
     }
 
     public static void DFS(TreeNodePractice node, TreeNodePractice parentNode) {
         if (node != null) {
-            depthMap.put(node.value, parentNode != null ? 1 + depthMap.get(parentNode.value) : 0);
             parentMap.put(node.value, parentNode);
-                // just for logging the static variables
-                // Map<Integer, Integer> depthMap2 = depthMap;
-                // Map<Integer, TreeNodePractice> parentMap2 = parentMap;
+            depthMap.put(node.value, depthMap.getOrDefault(node.value, 0)+1);
             DFS(node.left, node);
             DFS(node.right, node);
         }
@@ -37,7 +36,7 @@ public class Cousins {
         root.right = rootR;
         rootR.right = rootRR;
         rootL.left = rootLL;
-        
+
         System.out.println("Expected: true :: Actual: " + isCousins(root, 5, 4));
 
     }
