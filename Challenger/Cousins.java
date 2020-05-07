@@ -20,7 +20,8 @@ public class Cousins {
     public static void DFS(TreeNodePractice node, TreeNodePractice parentNode) {
         if (node != null) {
             parentMap.put(node.value, parentNode);
-            depthMap.put(node.value, depthMap.getOrDefault(node.value, 0)+1);
+            int currentDepth = parentNode != null ? depthMap.get(parentNode.value) + 1 : 0;
+            depthMap.put(node.value, currentDepth);
             DFS(node.left, node);
             DFS(node.right, node);
         }
