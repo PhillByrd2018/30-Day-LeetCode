@@ -3,6 +3,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
+import javax.xml.stream.events.Characters;
+
 /**
  * This static method will take in a string and return a boolean if it is a
  * palindrome
@@ -50,11 +52,32 @@ public class Palindrome {
 
     }
 
+    public static boolean isPalindromeSpeedyChar(String s) {
+    
+
+        //validations
+        StringBuilder cleanString = new StringBuilder();
+        for (char c : s.toCharArray()) {
+            if (Character.isLetterOrDigit(c)) {
+                cleanString.append(c);
+            }
+        }
+        String forward = cleanString.toString();
+        String backwards = cleanString.reverse().toString();
+
+        return forward.equals(backwards);
+    }
+
     public static void main(String[] args) {
 
         String s = "deed";
         System.out.println("This is the practice env. Ready for development");
         System.out.println("Testing deed: " + isPalindrome(s));
+
+        System.out.println("================================================");
+        System.out.println("Expected: true :: Actual: " + isPalindromeSpeedyChar(s));
+        System.out.println("Expected: false :: Actual: " + isPalindromeSpeedyChar("th dsli fdjaslfi cx"));
+        System.out.println("Expected: true :: Actual: " + isPalindromeSpeedyChar(""));
 
     }
 }
