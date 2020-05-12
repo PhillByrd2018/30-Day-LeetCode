@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DomainVisits",
+            "request": "launch",
+            "mainClass": "Challenger.DomainVisits",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InorderTree",
+            "request": "launch",
+            "mainClass": "Challenger.InorderTree",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PostorderTree",
+            "request": "launch",
+            "mainClass": "Challenger.PostorderTree",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PreorderTree",
+            "request": "launch",
+            "mainClass": "Challenger.PreorderTree",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AddTwoLinkedList",
+            "request": "launch",
+            "mainClass": "Challenger.AddTwoLinkedList",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FloodFill",
+            "request": "launch",
+            "mainClass": "Challenger.FloodFill",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestPalindrome",
+            "request": "launch",
+            "mainClass": "Challenger.LongestPalindrome",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JudgeInTown",
+            "request": "launch",
+            "mainClass": "Challenger.JudgeInTown",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PerfectSquare",
+            "request": "launch",
+            "mainClass": "Challenger.PerfectSquare",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MakeAValidParen",
+            "request": "launch",
+            "mainClass": "MakeAValidParen",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PointsMakeALine",
+            "request": "launch",
+            "mainClass": "Challenger.PointsMakeALine",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MaxDepthBinary",
             "request": "launch",
             "mainClass": "Challenger.MaxDepthBinary",
