@@ -1,5 +1,7 @@
 package Challenger;
 
+// Postorder traversal is used to delete the tree
+
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,5 +1,7 @@
 package Challenger;
 
+//Preorder traversal is used to create a copy of the tree
+
 import java.util.ArrayList;
 import java.util.List;
 
