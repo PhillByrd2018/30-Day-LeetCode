@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SingleElementInArray",
+            "request": "launch",
+            "mainClass": "Challenger.SingleElementInArray",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HighFive",
+            "request": "launch",
+            "mainClass": "Challenger.HighFive",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RangeOfSumBST",
+            "request": "launch",
+            "mainClass": "Challenger.RangeOfSumBST",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - DomainVisits",
             "request": "launch",
             "mainClass": "Challenger.DomainVisits",
