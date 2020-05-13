@@ -1,9 +1,6 @@
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
-
-import javax.xml.stream.events.Characters;
 
 /**
  * This static method will take in a string and return a boolean if it is a
@@ -48,7 +45,7 @@ public class Palindrome {
 
         StringBuilder plain = new StringBuilder(clean.toLowerCase());
 
-        return plain.reverse().equals(plain);
+        return plain.toString().equals(plain.reverse().toString());
 
     }
 
@@ -65,7 +62,7 @@ public class Palindrome {
         String forward = cleanString.toString();
         String backwards = cleanString.reverse().toString();
 
-        return forward.equals(backwards);
+        return forward.toLowerCase().contentEquals(backwards.toLowerCase());
     }
 
     public static void main(String[] args) {
@@ -76,8 +73,9 @@ public class Palindrome {
 
         System.out.println("================================================");
         System.out.println("Expected: true :: Actual: " + isPalindromeSpeedyChar(s));
-        System.out.println("Expected: false :: Actual: " + isPalindromeSpeedyChar("th dsli fdjaslfi cx"));
+        System.out.println("Expected: true :: Actual: " + isPalindromeSpeedyChar("A man, a plan, a canal: Panama"));
         System.out.println("Expected: true :: Actual: " + isPalindromeSpeedyChar(""));
+        System.out.println("Expected: false :: Actual: " + isPalindromeSpeedy("race a car"));
 
     }
 }
