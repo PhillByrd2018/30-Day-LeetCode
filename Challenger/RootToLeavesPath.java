@@ -1,7 +1,5 @@
 package Challenger;
 
-import java.util.Arrays;
-
 public class RootToLeavesPath {
 
     public static int[] testCase1 = { 0, 1, 0, 1 };
