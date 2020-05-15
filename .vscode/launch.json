@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MaxSumCircularArray",
+            "request": "launch",
+            "mainClass": "Challenger.MaxSumCircularArray",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LessThanTwoSum",
             "request": "launch",
             "mainClass": "Challenger.LessThanTwoSum",

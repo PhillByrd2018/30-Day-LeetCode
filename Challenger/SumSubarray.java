@@ -55,16 +55,16 @@ public class SumSubarray {
     }
 
     public static void main(String[] args) {
-        // System.out.println("Expected: 2 :: Actual: " + subarraySumBruteForce(testCase1, 2));
-        // System.out.println("Expected: 2 :: Actual: " + subarraySumBruteForce(testCase2, 3));
-        // System.out.println("Expected: 1 :: Actual: " + subarraySumBruteForce(testCase3, 100));
-        // System.out.println("Expected: 55 :: Actual: " + subarraySumBruteForce(testCase4, 0));
-        // System.out.println("==============================================================");
-        // System.out.println("Expected: 2 :: Actual: " + sumWithNoSpace(testCase1, 2));
-        // System.out.println("Expected: 2 :: Actual: " + sumWithNoSpace(testCase2, 3));
-        // System.out.println("Expected: 1 :: Actual: " + sumWithNoSpace(testCase3, 100));
-        // System.out.println("Expected: 55 :: Actual: " + sumWithNoSpace(testCase4, 0));
-        // System.out.println("==============================================================");
+        System.out.println("Expected: 2 :: Actual: " + subarraySumBruteForce(testCase1, 2));
+        System.out.println("Expected: 2 :: Actual: " + subarraySumBruteForce(testCase2, 3));
+        System.out.println("Expected: 1 :: Actual: " + subarraySumBruteForce(testCase3, 100));
+        System.out.println("Expected: 55 :: Actual: " + subarraySumBruteForce(testCase4, 0));
+        System.out.println("==============================================================");
+        System.out.println("Expected: 2 :: Actual: " + sumWithNoSpace(testCase1, 2));
+        System.out.println("Expected: 2 :: Actual: " + sumWithNoSpace(testCase2, 3));
+        System.out.println("Expected: 1 :: Actual: " + sumWithNoSpace(testCase3, 100));
+        System.out.println("Expected: 55 :: Actual: " + sumWithNoSpace(testCase4, 0));
+        System.out.println("==============================================================");
         System.out.println("Expected: 2 :: Actual: " + sumWithMap(testCase1, 2));
         System.out.println("Expected: 2 :: Actual: " + sumWithMap(testCase2, 3));
         System.out.println("Expected: 1 :: Actual: " + sumWithMap(testCase3, 100));
