@@ -1,5 +1,8 @@
 package Challenger;
+
 import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class MoveZeroes {
 
@@ -22,6 +25,25 @@ public class MoveZeroes {
             l++;
         }
         
+        return nums;
+    }
+
+    public static int[] moveZeroesWhileQue(int[] nums) {
+        Queue<Integer> numQue = new LinkedList<>();
+        
+        for (int num : nums) {
+            if (num != 0) {
+                numQue.add(num);
+            }
+        }
+
+        for (int i =0; i < nums.length; i++) {
+            if (!numQue.isEmpty()) {
+                nums[i] = numQue.poll();
+            } else {
+                nums[i] = 0;
+            }
+        }
         return nums;
     }
 

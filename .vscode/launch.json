@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - IntersectionOfArrays",
+            "request": "launch",
+            "mainClass": "Challenger.IntersectionOfArrays",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ContainsDuplicates",
+            "request": "launch",
+            "mainClass": "Challenger.ContainsDuplicates",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RotateAnArray",
+            "request": "launch",
+            "mainClass": "Challenger.RotateAnArray",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RemoveDuplicatesArray",
+            "request": "launch",
+            "mainClass": "Challenger.RemoveDuplicatesArray",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - OddEvenLinkedList",
             "request": "launch",
             "mainClass": "Challenger.OddEvenLinkedList",
