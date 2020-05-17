@@ -32,36 +32,62 @@ public class OddEvenLinkedList {
             }
         }
 
-        ListNode oddHead = new ListNode(oddList.remove(0));
-        ListNode currentNodeO = oddHead;
-        ListNode tempO;
-        for (int num : oddList) {
-            tempO = new ListNode(num);
-            currentNodeO.next = tempO;
-            currentNodeO = tempO;
-        }
+        ListNode oddHead;
+        if (!oddList.isEmpty()) {
+            oddHead = new ListNode(oddList.remove(0));
+            ListNode currentNodeO = oddHead;
+            ListNode tempO;
+            for (int num : oddList) {
+                tempO = new ListNode(num);
+                currentNodeO.next = tempO;
+                currentNodeO = tempO;
+            }
 
-        ListNode evenHead = new ListNode(evenList.remove(0));
-        ListNode currentNodeE = evenHead;
-        ListNode tempE;
-        for (int num : evenList) {
-            tempE = new ListNode(num);
-            currentNodeE.next = tempE;
-            currentNodeE = tempE;
-        }
+            ListNode evenHead;
+            if (!evenList.isEmpty()) {
+                evenHead = new ListNode(evenList.remove(0));
+                ListNode currentNodeE = evenHead;
+                ListNode tempE;
+                for (int num : evenList) {
+                    tempE = new ListNode(num);
+                    currentNodeE.next = tempE;
+                    currentNodeE = tempE;
+                }
 
-        ListNode currentNodeAns = oddHead;
-        while (currentNodeAns.next != null) {
-            currentNodeAns = currentNodeAns.next;
-        }
+                ListNode currentNodeAns = oddHead;
+                while (currentNodeAns.next != null) {
+                    currentNodeAns = currentNodeAns.next;
+                }
 
-        currentNodeAns.next = evenHead;
-        return oddHead;
+                currentNodeAns.next = evenHead;
+                return oddHead;
+            } else {
+                return oddHead;
+            }
+        }
+        return head;
     }
 
-    // public static ListNode oddEvenListInPlace(ListNode head) {
+    public static ListNode oddEvenListInPlace(ListNode head) {
 
-    // }
+        if (head == null) {
+            return head;
+        }
+
+        ListNode odd = head;
+        ListNode even = head.next;
+        ListNode evenHead = even;
+
+        while (even != null && even.next != null) {
+            odd.next = even.next;
+            odd = odd.next;
+            even.next = odd.next;
+            even = even.next;
+        }
+        odd.next = evenHead;
+
+        return head;
+    }
 
     public static void main(String[] args) {
         ListNode testCaseHeadNodeL = new ListNode(1);
@@ -81,6 +107,13 @@ public class OddEvenLinkedList {
         ListNode testCaseL5 = new ListNode(6);
         testCaseL4.next = testCaseL5;
 
-        System.out.println("Expected:  1->3->5->2->4->6 :: Actual: " + oddEvenListNotInPlace(testCaseHeadNodeL));
+        System.out.println("Expected: 1->3->5->2->4->6 :: Actual: " + oddEvenListNotInPlace(testCaseHeadNodeL));
+        System.out.println("Expected: 1->3->5->2->4->6 :: Actual: " + oddEvenListInPlace(testCaseHeadNodeL));
+
+        ListNode testCaseHeadNodeSingle = new ListNode(1);
+
+        System.out.println("Expected:  1 :: Actual: " + oddEvenListNotInPlace(testCaseHeadNodeSingle));
+        System.out.println("Expected:  1 :: Actual: " + oddEvenListInPlace(testCaseHeadNodeSingle));
+
     }
 }

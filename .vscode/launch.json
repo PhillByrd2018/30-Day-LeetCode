@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - OddEvenLinkedList",
+            "request": "launch",
+            "mainClass": "Challenger.OddEvenLinkedList",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MaxSumCircularArray",
             "request": "launch",
             "mainClass": "Challenger.MaxSumCircularArray",
