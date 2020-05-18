@@ -63,17 +63,17 @@ public class LongestCommonPrefix {
     }
 
     public static void main(String[] args) {
-        // String[] testCase1 = { "flower", "flow", "flight" };
-        // System.out.println("Expected: fl :: Actual: " + longestCommonPrefix(testCase1));
+        String[] testCase1 = { "flower", "flow", "flight" };
+        System.out.println("Expected: fl :: Actual: " + longestCommonPrefix(testCase1));
 
-        // String[] testCase2 = { "flower", "plow", "tlight" };
-        // System.out.println("Expected: '' :: Actual: " + longestCommonPrefix(testCase2));
+        String[] testCase2 = { "flower", "plow", "tlight" };
+        System.out.println("Expected: '' :: Actual: " + longestCommonPrefix(testCase2));
 
-        // System.out.println("======================================================");
+        System.out.println("======================================================");
 
-        // System.out.println("Expected: fl :: Actual: " + longestCommonPrefixBRUTE(testCase1));
+        System.out.println("Expected: fl :: Actual: " + longestCommonPrefixBRUTE(testCase1));
 
-        // System.out.println("Expected: '' :: Actual: " + longestCommonPrefixBRUTE(testCase2));
+        System.out.println("Expected: '' :: Actual: " + longestCommonPrefixBRUTE(testCase2));
         String[] testCase3 = { "aaa", "aa", "aaa" };
         System.out.println("Expected: aa :: Actual: " + longestCommonPrefixBRUTE(testCase3));
 
