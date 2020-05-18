@@ -88,16 +88,16 @@ public class ValidParenString {
     }
 
     public static void main(String[] args) {
-        // System.out.println("Expected: false :: Actual: " +
-        // checkValidString(testCase5));
-        // System.out.println("Expected: true :: Actual: " +
-        // checkValidString(testCase1));
-        // System.out.println("Expected: true :: Actual: " +
-        // checkValidString(testCase2));
-        // System.out.println("Expected: true :: Actual: " +
-        // checkValidString(testCase3));
-        // System.out.println("Expected: true :: Actual: " +
-        // checkValidString(testCase4));
+        System.out.println("Expected: false :: Actual: " +
+        checkValidString(testCase5));
+        System.out.println("Expected: true :: Actual: " +
+        checkValidString(testCase1));
+        System.out.println("Expected: true :: Actual: " +
+        checkValidString(testCase2));
+        System.out.println("Expected: true :: Actual: " +
+        checkValidString(testCase3));
+        System.out.println("Expected: true :: Actual: " +
+        checkValidString(testCase4));
 
         System.out.println("=========================================================");
         System.out.println("Expected: true :: Actual: " +
