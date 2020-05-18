@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Fibonacci",
+            "request": "launch",
+            "mainClass": "Challenger.Fibonacci",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringToInteger",
+            "request": "launch",
+            "mainClass": "Challenger.StringToInteger",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReverseInteger",
+            "request": "launch",
+            "mainClass": "Challenger.ReverseInteger",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReverseAString",
+            "request": "launch",
+            "mainClass": "Challenger.ReverseAString",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AnagramIndex",
+            "request": "launch",
+            "mainClass": "Challenger.AnagramIndex",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - IntersectionOfArrays",
             "request": "launch",
             "mainClass": "Challenger.IntersectionOfArrays",
