@@ -44,9 +44,6 @@ public class KthSmallestInTree {
         System.out.println("Expected: 1 :: Actual: " + kthSmallest(root, 1));
 
         TreeNodePractice root2 = new TreeNodePractice(3);
-        TreeNodePractice rootL = new TreeNodePractice(1);
-        TreeNodePractice rootR = new TreeNodePractice(4);
-        TreeNodePractice rootLR = new TreeNodePractice(2);
         root.left = rootL;
         root.right = rootR;
         rootL.right = rootLR;
