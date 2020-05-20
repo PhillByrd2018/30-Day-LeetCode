@@ -34,8 +34,38 @@ public class SortArrayByParity {
         return ans;
     }
 
+    public static int[] sortArrayByParityII(int[] A) {
+
+        if (A.length < 2) {
+            return A;
+        }
+
+        int[] ans = new int[A.length];
+
+        Queue<Integer> evens = new LinkedList<>();
+        Queue<Integer> odds = new LinkedList<>();
+        for (int num : A) {
+            if (num % 2 == 0) {
+                evens.add(num);
+            } else {
+                odds.add(num);
+            }
+        }
+
+        for (int i = 0; i < A.length; i++) {
+            if (i%2==0) {
+                ans[i] = evens.poll();
+            } else{
+                ans[i] = odds.poll();
+            }
+        }
+        return ans;
+
+    }
+
     public static void main(String[] args) {
         int[] testCase1 = { 3, 1, 2, 4 };
         System.out.println("Expected: [2, 4, 3, 1] :: Actual: " + Arrays.toString(sortArrayByParity(testCase1)));
+        System.out.println("Expected: [2, 1, 4, 3] :: Actual: " + Arrays.toString(sortArrayByParityII(testCase1)));
     }
 }
