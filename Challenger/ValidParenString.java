@@ -9,8 +9,8 @@ import java.util.Stack;
 public class ValidParenString {
 
     public static String testCase1 = "()";
-    public static String testCase2 = "(*)";
-    public static String testCase3 = "(*))";
+    public static String testCase2 = "(****************************)";
+    public static String testCase3 = "())";
     public static String testCase4 = "()()()()()((((()))))";
     public static String testCase5 = "(*))))))))";
     public static String testCase6 = "(*()";
