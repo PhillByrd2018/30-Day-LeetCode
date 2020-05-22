@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MinValidToAdd",
+            "request": "launch",
+            "mainClass": "Challenger.MinValidToAdd",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InvertBinaryTree",
+            "request": "launch",
+            "mainClass": "Challenger.InvertBinaryTree",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SubMatix",
             "request": "launch",
             "mainClass": "Challenger.SubMatix",

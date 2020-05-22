@@ -2,6 +2,7 @@ package Challenger;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 public class InorderTree {
 
@@ -21,7 +22,28 @@ public class InorderTree {
         inOrderTreeHelper(root.left, ansList);
         ansList.add(root.value);
         inOrderTreeHelper(root.right, ansList);
-       
+
+    }
+
+    public static List<Integer> inOrderTreeIteratively(TreeNodePractice root) {
+        
+        List<Integer> res = new ArrayList<>();
+        Stack<TreeNodePractice> stack = new Stack<>();
+
+        TreeNodePractice curr = root;
+
+        while (curr != null || !stack.isEmpty()) {
+            while (curr != null) {
+                stack.push(curr);
+                curr = curr.left;
+            }
+            curr = stack.pop();
+            res.add(curr.value);
+            curr = curr.right;
+        }
+
+        return res;
+
     }
 
     public static void main(String[] args) {
