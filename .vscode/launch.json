@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ClosestPoint",
+            "request": "launch",
+            "mainClass": "Challenger.ClosestPoint",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CourseScheduler",
             "request": "launch",
             "mainClass": "Challenger.CourseScheduler",
