@@ -2,26 +2,19 @@ package Challenger;
 
 public class IsSubsequence {
     public static boolean isSubsequence(String s, String t) {
-        int index = 0;
 
+
+        int fromIndex = 0;
         for (char c : s.toCharArray()) {
-            index = isSubHelper(c, t, index);
-            if (index < 0) {
+            fromIndex = t.indexOf(c, fromIndex);
+            if (fromIndex++ < 0) {
                 return false;
             }
         }
         return true;
     }
 
-    public static int isSubHelper(char toSearch, String stringToSearch, int startingFrom) {
-
-        for (int i = startingFrom; i < stringToSearch.length(); ++i) {
-            if (toSearch == stringToSearch.charAt(i)) {
-                return i;
-            }
-        }
-        return -1;
-    }
+    
     public static void main(String[] args) {
         System.out.println("Expected: false :: Actual: " + isSubsequence("aaaaaa", "bbaaaa"));
         System.out.println("Expected: false :: Actual: " + isSubsequence("abc", ""));
