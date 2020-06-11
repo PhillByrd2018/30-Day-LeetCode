@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SortColors",
+            "request": "launch",
+            "mainClass": "Challenger.SortColors",
+            "projectName": "Practice_e9ecc0b6"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SearchInsert",
             "request": "launch",
             "mainClass": "Challenger.SearchInsert",
